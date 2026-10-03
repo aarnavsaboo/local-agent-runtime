@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-agent-runtime"
+version = "0.1.0"
+description = "Local DAG runtime for retrieval and language-model workflows"
+requires-python = ">=3.10"
+authors = [{name = "Aarnav Saboo"}]
+
+[project.scripts]
+local-agent-runtime = "local_agent_runtime.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["local_agent_runtime*"]

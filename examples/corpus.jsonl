@@ -1,0 +1,3 @@
+{"id":"retrieval-1","text":"Reciprocal-rank fusion combines multiple ranked retrieval lists using reciprocal rank contributions."}
+{"id":"reranking-1","text":"A cross-encoder reranker scores query-passage pairs after broad candidate retrieval."}
+{"id":"local-model-1","text":"Local model workflows can separate prompt processing, generation throughput, model load time and memory measurements."}
